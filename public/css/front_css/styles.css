@@ -1,0 +1,227 @@
+.box-servicios {
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e5e5e5;
+    border-style: solid;
+    background-color: white;
+}
+
+#google-map {
+    width: 100%;
+    height: 450px;
+}
+
+.logo-mapa {
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.error {
+    background-color: red;
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+}
+
+.loading-contact-logo {}
+.loading-contact-logo {width: 150px; text-align: center; padding-top: 90px;}
+.loading-contact-loading img {width: 42px !important}
+
+#responseContacto {min-height: 350px}
+
+.saint-link {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.tu-viaje {
+    padding: 15px;
+    text-align: left;
+    color: #383838;
+}
+
+.tu-viaje p {
+    margin-bottom: 0;
+}
+
+.form-checkout {
+    padding: 10px;
+}
+
+#frmReserva {
+    padding: 15px;
+}
+
+.logo-mp-checkout {
+    background-color: white;
+    padding: 15px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 330px;   
+    max-width: 300px !important; 
+}
+
+.cssload-loading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cssload-loading i {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  /*background: rgb(188, 164, 128);*/
+  background-color: #74c586;
+}
+.cssload-loading i:first-child{
+  opacity: 0;
+  animation:cssload-loading-ani2 0.58s linear infinite;
+    -o-animation:cssload-loading-ani2 0.58s linear infinite;
+    -ms-animation:cssload-loading-ani2 0.58s linear infinite;
+    -webkit-animation:cssload-loading-ani2 0.58s linear infinite;
+    -moz-animation:cssload-loading-ani2 0.58s linear infinite;
+  transform:translate(-19px);
+    -o-transform:translate(-19px);
+    -ms-transform:translate(-19px);
+    -webkit-transform:translate(-19px);
+    -moz-transform:translate(-19px);
+}
+.cssload-loading i:nth-child(2),
+.cssload-loading i:nth-child(3){
+  animation:cssload-loading-ani3 0.58s linear infinite;
+    -o-animation:cssload-loading-ani3 0.58s linear infinite;
+    -ms-animation:cssload-loading-ani3 0.58s linear infinite;
+    -webkit-animation:cssload-loading-ani3 0.58s linear infinite;
+    -moz-animation:cssload-loading-ani3 0.58s linear infinite;
+}
+.cssload-loading i:last-child{
+  animation:cssload-loading-ani1 0.58s linear infinite;
+    -o-animation:cssload-loading-ani1 0.58s linear infinite;
+    -ms-animation:cssload-loading-ani1 0.58s linear infinite;
+    -webkit-animation:cssload-loading-ani1 0.58s linear infinite;
+    -moz-animation:cssload-loading-ani1 0.58s linear infinite;
+}
+
+
+
+
+@keyframes cssload-loading-ani1{
+  100%{
+    transform:translate(39px);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cssload-loading-ani1{
+  100%{
+    -o-transform:translate(39px);
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes cssload-loading-ani1{
+  100%{
+    -ms-transform:translate(39px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cssload-loading-ani1{
+  100%{
+    -webkit-transform:translate(39px);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes cssload-loading-ani1{
+  100%{
+    -moz-transform:translate(39px);
+    opacity: 0;
+  }
+}
+
+@keyframes cssload-loading-ani2{
+  100%{
+    transform:translate(15px);
+    opacity: 1;
+  }
+}
+
+@-o-keyframes cssload-loading-ani2{
+  100%{
+    -o-transform:translate(19px);
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes cssload-loading-ani2{
+  100%{
+    -ms-transform:translate(19px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes cssload-loading-ani2{
+  100%{
+    -webkit-transform:translate(19px);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes cssload-loading-ani2{
+  100%{
+    -moz-transform:translate(19px);
+    opacity: 1;
+  }
+}
+
+@keyframes cssload-loading-ani3{
+  100%{
+    transform:translate(19px);
+  }
+}
+
+@-o-keyframes cssload-loading-ani3{
+  100%{
+    -o-transform:translate(19px);
+  }
+}
+
+@-ms-keyframes cssload-loading-ani3{
+  100%{
+    -ms-transform:translate(19px);
+  }
+}
+
+@-webkit-keyframes cssload-loading-ani3{
+  100%{
+    -webkit-transform:translate(19px);
+  }
+}
+
+@-moz-keyframes cssload-loading-ani3{
+  100%{
+    -moz-transform:translate(19px);
+  }
+}
+
+.hotale-body hr {
+  border-color: #ccc;
+}
+
+.displayNone {display: none !important;}
+
+.pxay-checkout {cursor: pointer;}
+
+.mercadopago-button {display: none;}
+
+.conte-buscador {
+  min-height: 800px;
+  padding-top: 100px;
+}
