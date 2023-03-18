@@ -43,7 +43,7 @@
 
 <a href="https://www.saintjosephweb.com.ar/" target="new">
     <p class="saint-link">Con el alquiler de más de 3 noches, <b>GRATIS!!!</b> un RAFTING o Paseo en Catamarán y el uso del Complejo Saint Joseph en Valle Grande todos los días!!! <br>
-    <img src="{{ asset('images/logo-saint.gif') }}" style="width: 130px;" alt="">
+    <img src="{{ asset('images/logo_saintjoseph.png') }}" style="width: 130px;" alt="">
     </p>
 </a>
 
