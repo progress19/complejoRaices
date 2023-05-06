@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <p style="text-align: center;"><i class="icon_compass"></i> <a href="https://goo.gl/maps/t1L2Yh2d5iah2qmv9" target="new"> Juárez Celman 2800 (entre Ameghino y Dr. Maradona) San Rafael - Mendoza - Argentina</a> </p>
-                        <p style="text-align: center;"><i class="icon_phone"></i> <a href="tel:2604-400282">2604-400282 | 2604-408749</a></p>
+                        <p style="text-align: center;"><i class="icon_phone"></i> <a href="tel:2604115706">2604-115706 | 2604-400282</a></p>
                         <p style="text-align: center;"><i class="icon_mail"></i> <a href="mailto:complejoraices.com.ar">info@complejoraices.com.ar</a></p>
                         <p></p>
                     </div>

@@ -96,6 +96,14 @@
 
 <!-- HEADER PC -->
 
+  <div id="myModal" class="modal">
+    <div class="modal-content-promo">
+        <span id="close" class="close">&times;</span>
+        <img src="{{ asset('images/promo_raices.jpg') }}" alt=""  class="img-fluid" title="logo complejoraices"/>
+    </div>
+</div>
+  
+
     <div class="hotale-body-outer-wrapper">
         <div class="hotale-body-wrapper clearfix hotale-with-frame">
 
@@ -130,9 +138,9 @@
 
                             <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top">
                         
-                                <div class="tourmaster-user-top-bar tourmaster-guest tourmaster-style-2" data-redirect="tel:2604400282" data-ajax-url="#">
+                                <div class="tourmaster-user-top-bar tourmaster-guest tourmaster-style-2" data-redirect="tel:2604115706" data-ajax-url="#">
                                     <span class="tourmaster-user-top-bar-login">
-                                        <span class="tourmaster-text"><i class="icon_phone"></i>2604-400282 | 2604-408749</span>
+                                        <span class="tourmaster-text"><i class="icon_phone"></i>2604-115706 | 2604-400282</span>
                                     </span>
                                 </div>
 
@@ -191,5 +199,45 @@
 </body>
 
 @yield('page-js-script')
+
+<script>
+		var modal = document.getElementById("myModal");
+		var content = document.querySelector(".modal-content-promo");
+		var span = document.getElementById("close");
+
+		// Muestra el modal
+		function showModal() {
+			modal.style.display = "block";
+			content.classList.add("show"); // Agrega la clase "show" para activar la transición
+		}
+
+		// Cierra el modal
+		function closeModal() {
+			content.classList.remove("show"); // Remueve la clase "show" para desactivar la transición
+			modal.style.display = "none";
+		}
+
+		// Cierra el modal si se hace clic fuera de él
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				closeModal();
+			}
+		}
+
+		// Cierra el modal si se hace clic en la "X"
+		if (span) {
+			span.onclick = function() {
+				closeModal();
+			}
+		}
+
+		// Muestra el modal al cargar la página
+		window.onload = function() {
+			showModal();
+		};
+
+
+
+</script>
 
 </html>
