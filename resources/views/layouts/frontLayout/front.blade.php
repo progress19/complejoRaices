@@ -160,7 +160,7 @@
             <footer>
                 <div class="hotale-copyright-wrapper">
                     <div class="hotale-copyright-container hotale-container">
-                        <div class="hotale-copyright-text hotale-item-pdlr">© Todos los derechos reservados por Complejo Raices <a href="https://mauriciolavilla.ml" target="new">Desarrollo Web por ML</a></div>
+                        <div class="hotale-copyright-text hotale-item-pdlr">© Todos los derechos reservados por Complejo Raices <a href="https://mauriciolavilla.net.ar" target="new">Desarrollo Web por ML</a></div>
                     </div>
                 </div>
             </footer>
