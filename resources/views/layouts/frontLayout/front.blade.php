@@ -22,8 +22,8 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://complejoraices.com.ar/">
-    <meta property="twitter:title" content="Raices - Complejo de departamentos turísticos - San Rafael Mendoza">
-    <meta property="twitter:description" content="El complejo Raices se encuentra en la ciudad de San Rafael, provincia de Mendoza, a 4,7 km del parque Hipólito Yrigoyen y a 5,7 km de la Plaza Central de San Martín, y ofrece alojamiento con wifi gratis, aire acondicionado, pileta exterior de temporada y jardín. Ofrece acceso a un balcón y estacionamiento privado gratuito.">
+    <meta property="twitter:title" content="Raíces - Complejo de departamentos turísticos - San Rafael Mendoza">
+    <meta property="twitter:description" content="El complejo Raíces se encuentra en la ciudad de San Rafael, provincia de Mendoza, a 4,7 km del parque Hipólito Yrigoyen y a 5,7 km de la Plaza Central de San Martín, y ofrece alojamiento con wifi gratis, aire acondicionado, pileta exterior de temporada y jardín. Ofrece acceso a un balcón y estacionamiento privado gratuito.">
     <meta property="twitter:image" content="">
   
     <link rel="stylesheet"  href="{{ asset('js/front_js/plugins/goodlayers-core/plugins/fontawesome/font-awesome.css') }}" type="text/css" media="all" />
@@ -82,7 +82,7 @@
                                 <li class="menu-item"><a href="#welcome">Home</a></li>
                                 <li class="menu-item"><a href="#gdlr-core-wrapper-1">Apartamentos</a></li>
                                 <li class="menu-item"><a href="#gdlr-core-wrapper-3">Servicios</a></li>
-                                <li class="menu-item"><a href="#gdlr-core-wrapper-4">Galeria</a></li>
+                                <li class="menu-item"><a href="#gdlr-core-wrapper-4">Galería</a></li>
                                 <li class="menu-item"><a href="#welcome">Reservas</a></li>
                                 <li class="menu-item"><a href="#contact">Contacto</a></li>
                             </ul>
@@ -128,7 +128,7 @@
                                     <li class="menu-ite hotale-normal-menu scroll"><a href="#welcome">Home</a></li>
                                     <li class="menu-ite hotale-normal-menu scroll"><a href="#gdlr-core-wrapper-1">Apartamentos</a></li>
                                     <li class="menu-ite hotale-normal-menu scroll"><a href="#gdlr-core-wrapper-3">Servicios</a></li>
-                                    <li class="menu-ite hotale-normal-menu scroll"><a href="#gdlr-core-wrapper-4">Galeria</a></li>
+                                    <li class="menu-ite hotale-normal-menu scroll"><a href="#gdlr-core-wrapper-4">Galería</a></li>
                                     <li class="menu-ite hotale-normal-menu"><a href="">Reservas</a></li>
                                     <li class="menu-ite hotale-normal-menu scroll"><a href="#contact">Contacto</a></li>
                                 
@@ -160,7 +160,7 @@
             <footer>
                 <div class="hotale-copyright-wrapper">
                     <div class="hotale-copyright-container hotale-container">
-                        <div class="hotale-copyright-text hotale-item-pdlr">© Todos los derechos reservados por Complejo Raices <a href="https://mauriciolavilla.net.ar" target="new">Desarrollo Web por ML</a></div>
+                        <div class="hotale-copyright-text hotale-item-pdlr">© Todos los derechos reservados por Complejo Raíces <a href="https://mauriciolavilla.net.ar" target="new">Desarrollo Web por ML</a></div>
                     </div>
                 </div>
             </footer>
@@ -195,6 +195,8 @@
     <script src="{{ asset('js/front_js/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('js/front_js/custom.js') }}"></script>
 
+    <div id="myButtonWhatsApp"></div>
+    <div id="numberWhatsApp" style="display: none;">+5492604400282</div>
 
 </body>
 
@@ -233,11 +235,9 @@
 
 		// Muestra el modal al cargar la página
 		window.onload = function() {
-			showModal();
+			//showModal();
 		};
-
-
-
+    
 </script>
 
 </html>

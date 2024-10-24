@@ -64,7 +64,7 @@ class WebhooksController extends Controller {
                 //se envia el array y la vista lo recibe en llaves individuales {{ $email }} , {{ $subject }}...
                 \Mail::send('emails.reserva', $data, function($message) use ($reserva, $payment, $config) {
                 //remitente
-                    $message->from('info@complejoraices.com.ar', 'Complejo Raices');
+                    $message->from('info@complejoraices.com.ar', 'Complejo Raíces');
                 //asunto
                     $message->subject('RESERVA RAICES');
                 //destinatarios

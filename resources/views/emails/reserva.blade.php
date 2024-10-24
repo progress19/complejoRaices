@@ -66,7 +66,7 @@
 
                                     <div class="panel-footer">
 
-                                        <strong>COMPLEJO RAICES</strong><br>
+                                        <strong>COMPLEJO RAÍCES</strong><br>
                                         Teléfono: 02604 - 400282 | 02604 - 408749 <br>
                                         <a href="mailto:info@complejoraices.com.ar" style="color: #3f3f3f;">info@complejoraices.com.ar</a> / <a href="https://complejoraices.com.ar" style="color: #3f3f3f;">complejoraices.com.ar</a><br>
 

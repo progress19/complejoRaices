@@ -44,7 +44,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 20px;">
                                         <div class="gdlr-core-text-box-item-content" style="font-size: 19px; text-transform: none; color: #94959b;">
-                                            <p> Con rápidos accesos a los puntos mas importantes de la Ciudad.
+                                            <p> Con rápidos accesos a los puntos más importantes de la Ciudad.
                                                 Ofrecen detalles de confort, entretenimiento, tranquilidad y placer.
                                             </p>
                                         </div>

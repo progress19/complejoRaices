@@ -20,7 +20,7 @@
                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px;">
                         <div class="gdlr-core-title-item-title-wrap">
                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 60px; font-weight: 400;letter-spacing: 0px; line-height: 1; text-transform: none; color: #141414;" >
-                                Bienvenido a <span style="font-weight: 700;">Complejo Raices</span><span style="color: #74c586; font-size: 72px;">.</span>
+                                Bienvenido a <span style="font-weight: 700;">Complejo Raíces</span><span style="color: #74c586; font-size: 72px;">.</span>
                                 <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                             </h3>
                         </div>
@@ -29,7 +29,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 15px;">
                         <div class="gdlr-core-text-box-item-content" style="font-size: 18px; text-transform: none; color: #94959b;">
-                            <p>Complejo de departamentos turisticos en San Rafael - Mendoza. Viví una experiencia diferente, disfrutá del confort en plena naturaleza.</p>
+                            <p>Complejo de departamentos turísticos en San Rafael - Mendoza. Viví una experiencia diferente, disfrutá del confort en plena naturaleza.</p>
                         </div>
                     </div>
                 </div>
