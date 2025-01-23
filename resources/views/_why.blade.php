@@ -42,7 +42,6 @@
                                 style="padding-bottom: 20px;">
                                 <div class="gdlr-core-text-box-item-content"
                                     style="font-size: 19px; text-transform: none; color: #94959b;">
-
                                     <p>El complejo Raíces se encuentra en la ciudad de San Rafael, provincia de Mendoza,
                                         a 4,7 km del Parque Hipólito Yrigoyen ,a 5,7 km de la Plaza Central de San
                                         Martín, a 30Km de Valle Grande, a 25Km de Los Reyunos, a 192 Km de Valle de Las
@@ -52,16 +51,14 @@
                                     <p>Los departamentos tienen 2 dormitorios, 2 baños, TV de pantalla plana, zona de
                                         comedor, cocina totalmente equipada y patio con vistas al jardín.</p>
                                     <p>(*)Aclaración: Las piscinas se encuentran en Valle Grande.</p>
-
                                     <a href="https://www.saintjosephweb.com.ar/" target="new">
                                         <p class="saint-link">Con el alquiler de más de 3 noches, <b>GRATIS!!!</b> un
-                                            RAFTING o Paseo en Catamarán y el uso del Complejo Saint Joseph en Valle
+                                            Paseo en Catamarán y el uso del Complejo Saint Joseph en Valle
                                             Grande todos los días!!! <br>
                                             <img src="{{ asset('images/logo_saintjoseph.png') }}" style="width: 130px;"
                                                 alt="">
                                         </p>
                                     </a>
-
                                 </div>
                             </div>
                         </div>
