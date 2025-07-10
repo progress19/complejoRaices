@@ -1,56 +1,59 @@
 function initialize() {
-
     var raices = '<img src="images/logo.png" class="img-responsive logo-mapa" /><b>Complejo Raices</b><br><i class="icon_phone"></i> 2604-400282';
     var saint = '<img src="https://www.saintjosephweb.com.ar/images/logo.png" class="img-responsive logo-mapa" /><b>Saint Joseph</b><br>Ruta 173 - Km 20 - San Rafael<br><i class="icon_phone"></i> 2604-673443';
 
-     var locations = [ 
- 
+    var locations = [ 
         [raices, -34.62983037694456, -68.37493911016706, 1, ''],  
         [saint, -34.81822716010604, -68.50386617090724, 2, ''],  
+    ];
 
-      ];
-
-    window.map = new google.maps.Map(document.getElementById('google-map'), {
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        scrollwheel: false,
-        navigationControl: false,
+    // Inicializar el mapa de Leaflet
+    window.map = L.map('google-map', {
+        scrollWheelZoom: false,
+        zoomControl: true
     });
 
-    var infowindow = new google.maps.InfoWindow();
-    var bounds = new google.maps.LatLngBounds();
+    // Agregar capa de OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
 
-    for (i = 0; i < locations.length; i++) {
-        marker = new google.maps.Marker({
-          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-          map: map,
-          icon: locations[i][4],
-        });
+    // Crear un grupo para los bounds
+    var group = new L.featureGroup();
 
-        bounds.extend(marker.position);
-
-        google.maps.event.addListener(marker, 'click', (function (marker, i) {
-            return function () {
-                infowindow.setContent(locations[i][0]);
-                infowindow.open(map, marker);
-            }
-        })(marker, i));
+    // Agregar marcadores
+    for (var i = 0; i < locations.length; i++) {
+        var marker = L.marker([locations[i][1], locations[i][2]])
+            .addTo(map)
+            .bindPopup(locations[i][0]);
+        
+        // Agregar al grupo para calcular bounds
+        group.addLayer(marker);
     }
 
-    map.fitBounds(bounds);
+    // Ajustar la vista para mostrar todos los marcadores
+    map.fitBounds(group.getBounds());
 
-    var listener = google.maps.event.addListener(map, "idle", function () {
+    // Establecer zoom específico después de ajustar bounds
+    setTimeout(function() {
         map.setZoom(11);
-        google.maps.event.removeListener(listener);
-    });
-
-
+    }, 100);
 }
 
 function loadScript() {
+    // Cargar CSS de Leaflet
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(link);
+
+    // Cargar JS de Leaflet
     var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBBhh9bdv02x8XPknaSceyUsPFrz6ap4SE&sensor=false&' + 'callback=initialize';
-
+    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    script.onload = function() {
+        initialize();
+    };
     document.body.appendChild(script);
 }
 

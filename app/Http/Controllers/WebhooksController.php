@@ -110,7 +110,6 @@ class WebhooksController extends Controller {
                     }
                 }
 
-
             // Check mandatory parameters
             if (!isset($_GET["id"], $_GET["topic"]) || !ctype_digit($_GET["id"])) {
                 http_response_code(400);
